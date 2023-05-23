@@ -1,0 +1,62 @@
+
+body{
+    margin: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight:100;
+}
+
+header{
+    background-color: rgb(51,51,51);
+    width: 100%;
+    height: 43px;
+    display:flex
+}
+
+.container {
+    padding-top:7px;
+    display:flex
+}
+
+.logo {
+
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 200px;
+        top: 9px;
+}
+.searchicon {
+    
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 9px;
+        right: 200px;        
+}
+
+.bagicon {
+   
+    width: 20px;
+    height: 20px;
+    position:absolute;
+    right: 100px;
+}
+
+nav ul.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+    
+nav{
+    position: absolute;
+    left: 25%;
+    margin-top: 4px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 70px;
+    font-size: 16px;
+}
